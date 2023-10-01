@@ -1,0 +1,30 @@
+body {
+    font-family:Roboto;
+    background-color: #FFF600;
+    color: #19B2FF;
+}
+
+h1,h2,h3,h4,h4,h5,h6 {
+    font-family:"Young Serif";
+    font: size 100pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#B3AD12;
+    border: 7px solid #FF1930;
+    background-color:#B3091A;
+    text-align:center;
+    padding: 10px;;
+}
+
+#hero img {
+    width: 150px;;
+}
+
+#bio{
+    text-align: center;
+}
