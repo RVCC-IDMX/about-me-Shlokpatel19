@@ -1,7 +1,7 @@
 body {
     font-family:Roboto;
-    background-color: #FFF600;
-    color: #19B2FF;
+    background-color: #FFFFED;
+    color:#000000;
 }
 
 h1,h2,h3,h4,h4,h5,h6 {
@@ -14,9 +14,9 @@ header {
 }
 
 #hero, footer {
-    color:#B3AD12;
-    border: 7px solid #FF1930;
-    background-color:#B3091A;
+    color:#000000;
+    border: 7px solid #7DBBFE;
+    background-color:#7DBBFE;
     text-align:center;
     padding: 10px;;
 }
