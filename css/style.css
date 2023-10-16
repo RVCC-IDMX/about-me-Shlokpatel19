@@ -5,8 +5,9 @@ body {
 }
 
 h1,h2,h3,h4,h4,h5,h6 {
-    font-family:"Young Serif";
+  
     font: size 100pt;
+    text-align: center;
 }
 
 header {
@@ -27,4 +28,8 @@ header {
 
 #bio{
     text-align: center;
+}
+
+#hoobies {
+    color
 }
