@@ -1,18 +1,31 @@
+/* Body */
 body {
     font-family:Roboto;
     background-color: #FFFFED;
     color:#000000;
 }
 
-h1,h2,h3,h4,h4,h5,h6 {
+/* sizing */
+
+h1,h3,h4,h4,h5,h6 {
   
     font: size 100pt;
     text-align: center;
 }
 
-header {
+/*Sizing for hobbie*/
+
+h2{
+    font-size: 15pt;
+}
+
+/* Header */
+
+#header {
     text-align:center;
 }
+
+/* Colors */
 
 #hero, footer {
     color:#000000;
@@ -22,14 +35,28 @@ header {
     padding: 10px;;
 }
 
+/* Bitmomji size */
+
 #hero img {
     width: 150px;;
 }
 
+/* Bio */
+
 #bio{
-    text-align: center;
+    text-align:center ;
+    
 }
 
+/* hobbies */
+
 #hobbies {
-    color: #7DBBFE;
+    color: darkblue;
+    text-align: start;
+}
+
+#gallery {
+    text-align: center;
+    max width: 100%;
+    border: 7px solid #7DBBFE;
 }
