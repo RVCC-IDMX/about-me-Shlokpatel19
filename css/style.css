@@ -16,7 +16,7 @@ h1,h3,h4,h4,h5,h6 {
 /*Sizing for hobbie*/
 
 h2{
-    font-size: 15pt;
+    font-size: 30pt;
     text-align: center;
 }
 
@@ -42,6 +42,7 @@ h2{
     width: 150px;;
 }
 
+
 /* Bio */
 
 #bio{
@@ -53,19 +54,27 @@ h2{
 
 #hobbies {
     color: darkblue;
-    text-align: start;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 }
 
+/* Border of photoes gallery */
+
 #gallery {
+    position: relative;
     text-align: center;
     border: 10px solid #7DBBFE;
     max-width: 100%;
     padding-bottom: 5%;
     margin-bottom: 3rem;;
 }
+.images{
+    width: 100%;
+}
 
 #lit {
-    border: 10px solid #7DBBFE;
+    border: 10px solid #fe7dc0;
     padding: 5rem ;
     margin: 0 auto;
 }
@@ -84,4 +93,21 @@ h2{
     box-shadow:5px 5px 5px rgba(0,0,0,.5);
     border-top-left-radius: 2em;
     border-bottom-right-radius: 2em;
+}
+
+/* dropcaps of the image text*/
+
+@media screen and (min-width: 60em){
+    figure{
+         display: grid;
+         grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
 }
